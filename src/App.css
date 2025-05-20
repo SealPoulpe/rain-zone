@@ -2,17 +2,7 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
+/*Use default react app header. It looks nice. :)*/
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -24,15 +14,16 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.RainZone {
+  width: 500px;
+  height: 500px;
+  border: 2px solid;
+  position: relative;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.block {
+  width: 5px;
+  height: 5px;
+  background-color: white;
+  position: absolute;
 }
